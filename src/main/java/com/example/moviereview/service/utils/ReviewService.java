@@ -3,6 +3,8 @@ package com.example.moviereview.service.utils;
 import com.example.moviereview.domain.Movie;
 import com.example.moviereview.domain.Review;
 import com.example.moviereview.repository.MovieRepository;
+import com.example.moviereview.repository.ReviewRepository;
+import com.example.moviereview.service.response.ReviewResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
