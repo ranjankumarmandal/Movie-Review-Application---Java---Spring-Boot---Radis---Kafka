@@ -1,5 +1,8 @@
 package com.example.moviereview.service.utils;
 
+import com.example.moviereview.domain.Genre;
+import com.example.moviereview.domain.Movie;
+import com.example.moviereview.repository.MovieRepository;
 import com.example.moviereview.service.response.MovieResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
