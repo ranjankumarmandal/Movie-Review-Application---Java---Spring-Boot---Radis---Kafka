@@ -28,7 +28,7 @@ public class Movie implements Serializable {
     @Enumerated(EnumType.STRING)
     private Genre genre;
 
-    private Double rating;// a single entity which is average rating of all reviews for a movie
+    private Double rating; // a single entity which is average rating of all reviews for a movie
 
     @OneToMany(mappedBy="movie")
     private List<Review> reviews;
