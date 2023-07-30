@@ -1,5 +1,6 @@
 package com.example.moviereview.contoller;
 
+import com.example.moviereview.service.utils.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
