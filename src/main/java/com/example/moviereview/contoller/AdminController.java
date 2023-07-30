@@ -1,5 +1,8 @@
 package com.example.moviereview.contoller;
 
+import com.example.moviereview.service.AdminService;
+import com.example.moviereview.service.request.MovieRequest;
+import com.example.moviereview.service.response.MovieResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
