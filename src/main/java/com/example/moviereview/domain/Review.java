@@ -1,5 +1,7 @@
 package com.example.moviereview.domain;
 
+import com.example.moviereview.service.response.ReviewResponse;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.OnDelete;

@@ -1,5 +1,6 @@
 package com.example.moviereview.domain;
 
+import com.example.moviereview.service.response.MovieResponse;
 import lombok.*;
 
 
@@ -32,7 +33,7 @@ public class Movie implements Serializable {
     @OneToMany(mappedBy="movie")
     private List<Review> reviews;
 
-    public  MovieResponse toMovieResponse(){
+    public MovieResponse toMovieResponse(){
         return MovieResponse.builder().genre(this.genre).title(this.title).rating(this.rating).reviews(Review.toReviewResponse(this.reviews)).build();
     }
 
